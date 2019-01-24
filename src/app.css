@@ -1,0 +1,45 @@
+body {
+	background-image: url("../static/background.png");
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+}
+
+img.image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	top: 10%;
+}
+
+p.paragraph {
+	font-family: 'Staatliches', cursive;
+	color: #000000;
+	background-color: #FFFFFF;
+	font-size: 25px;	
+	border-radius: 5px;
+	width: 50%;	
+	text-align: center;
+	position: absolute;    
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);    
+}
+
+button.button {
+  font-family: 'Concert One', cursive;
+  background-color: #02390A;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  float: left;
+}
+
+button.button:hover {
+  background-color: #000000;
+}
